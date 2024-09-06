@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.58), gray);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.time-div{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 20px 60px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, pink, tomato);
+    font-size: 1.5rem;
+}
+
+.time-div h3{
+    font-size: 1.2rem;
+}
